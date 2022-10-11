@@ -1,0 +1,16 @@
+
+.navbar {
+    height: 10vh;
+    background-color: #1574A3;
+}
+
+.links_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    margin-left: 10rem;
+    color: white;
+}

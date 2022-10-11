@@ -1,0 +1,14 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.col-6 {
+    margin-left: 4rem;
+    margin-top: 15rem;
+}
+
+.main_heading {
+    color: white;
+}
+
+.main_para {
+    color: white;
+}
