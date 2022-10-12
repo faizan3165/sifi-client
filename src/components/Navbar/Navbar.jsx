@@ -16,27 +16,27 @@ const Navigation = () => {
 
 			<Navbar.Collapse id="responsive-navbar-nav">
 				<Nav className="links_container">
-					<Nav.Link className="link" href="#features">
+					<Nav.Link className="link" href="/" active>
 						Home
 					</Nav.Link>
 
-					<Nav.Link className="link" href="#pricing">
+					<Nav.Link className="link" href="#services" active>
 						Services
 					</Nav.Link>
 
-					<Nav.Link className="link" href="#pricing">
+					<Nav.Link className="link" href="#pricing" active>
 						Consultancy
 					</Nav.Link>
 
-					<Nav.Link className="link" href="#deets">
+					<Nav.Link className="link" href="#deets" active>
 						Industrial Leads
 					</Nav.Link>
 
-					<Nav.Link className="link" href="#memes">
+					<Nav.Link className="link" href="#memes" active>
 						About Us
 					</Nav.Link>
 
-					<Nav.Link className="link" href="#memes">
+					<Nav.Link className="link" href="#memes" active>
 						Contact Us
 					</Nav.Link>
 				</Nav>

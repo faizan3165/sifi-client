@@ -1,7 +1,8 @@
-body {
-	background-image: url('../../assets/images/bg.png');
-	background-position: center center center;
+.home_main_container {
+	background-image: url('../../assets/images/mask_group.png');
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
+	margin: 0;
 }
