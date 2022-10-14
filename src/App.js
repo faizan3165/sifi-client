@@ -7,7 +7,7 @@ import './App.css';
 const App = () => {
 	return (
 		<Fragment>
-			<Navbar />
+			<Navbar /> 	
 			<Home />
 			<Services />
 		</Fragment>

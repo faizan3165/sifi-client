@@ -6,9 +6,10 @@ import './home.css';
 
 const Home = () => {
 	return (
-		<div className='home_main_container'>
+		<main className="home_main_container">
+			<br />
 			<Intro />
-		</div>
+		</main>
 	);
 };
 
