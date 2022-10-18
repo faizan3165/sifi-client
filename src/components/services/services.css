@@ -1,0 +1,17 @@
+.services_para {
+	margin-left: 30rem;
+}
+
+.services_card {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21rem;
+    margin-bottom: 10rem;
+}
+
+.my_card_logo {
+    width: 15rem;
+    height: 13rem;
+}

@@ -1,12 +1,15 @@
 import React, { Fragment } from 'react';
 
-import { Home, Navbar } from './components';
+import { Home, Navbar, Services } from './components';
+
+import './App.css';
 
 const App = () => {
 	return (
 		<Fragment>
-			<Navbar />
+			<Navbar /> 	
 			<Home />
+			<Services />
 		</Fragment>
 	);
 };

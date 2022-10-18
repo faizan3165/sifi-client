@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import Intro from '../Intro/Intro';
 
@@ -6,9 +6,11 @@ import './home.css';
 
 const Home = () => {
 	return (
-		<Fragment>
+		<div className="home_main_container">
+			<br />
+
 			<Intro />
-		</Fragment>
+		</div>
 	);
 };
 
