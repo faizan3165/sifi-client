@@ -58,6 +58,7 @@ const dummyData = [
     title: 'Graphic Designing',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat congue ornare lacinia',
   },
+  
 
 ];
 
@@ -72,8 +73,6 @@ const Services = () => {
         </p>
       </div>
 
-      {/* <div className="col-md-12 col-sm-6 my_cols"> */}
-        {/* <div className="d-flex justify-content-around"> */}
           <Container className="cards_container">
 
             <Row >
@@ -83,6 +82,8 @@ const Services = () => {
                 <Card
                   key={id}
                   className="rounded-4 shadow-lg services_card p-2"
+				  style={{ width: '18rem' }}
+
                 >
                   <Card.Img variant="top" src={img} class="my_card_logo" />
 
@@ -106,7 +107,6 @@ const Services = () => {
             </Row>
           </Container>
 
-        {/* </div> */}
       </div>
     </Fragment>
   );
