@@ -16,7 +16,7 @@ const Intro = () => {
 			<div className="col">
 				<h2 className="display-5 fw-bold main_heading">An Adaptive Enterprise</h2>
 
-				<p className="display-3 mt-3 main_para fw-light">
+				<p className="display-4 mt-2 main_para fw-light">
 					Collaborate with industry and academic leaders to develop next-generation AI applications
 				</p>
 

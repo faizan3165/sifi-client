@@ -7,7 +7,7 @@ import './Navbar.css';
 
 const Navigation = () => {
 	return (
-		<Navbar collapseOnSelect expand="lg" variant="dark" className="navbar">
+		<Navbar collapseOnSelect expand="lg" variant="dark" className="navbar fixed-top">
 			<Navbar.Brand href="/" className="px-3">
 				<Logo />
 			</Navbar.Brand>

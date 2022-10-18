@@ -68,7 +68,7 @@ const Services = () => {
 		<div className='services_container'>
       <div className="text-center my-5">
         <h1 className="display-6 fw-bold">Our Services</h1>
-        <p className="text-primary display-2 text-wrap w-60 mt-3 fw-semibold services_para">
+        <p className=" display-2 text-wrap w-60 mt-3 fw-semibold services_para" style={{color:'#0B75A9'}}>
           We Provide All Kinds Of Business Solutions
         </p>
       </div>
