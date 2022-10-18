@@ -1,5 +1,6 @@
 .services_para {
-	margin-left: 30rem;
+	/* margin-left: 30rem; */
+    font-size: 50px;
 }
 
 .services_card {
@@ -8,10 +9,21 @@
     align-items: center;
     justify-content: center;
     width: 21rem;
-    margin-bottom: 10rem;
+    margin-left: -14rem;
+    /* margin: 20px; */
 }
 
 .my_card_logo {
     width: 15rem;
     height: 13rem;
+}
+.services_container{
+    background-image: url('../../assets/images/services-background.png');
+ 
+    background-position: center;
+    
+}
+.cards_container{
+    /* background-color:blue; */
+    padding: 20px;
 }

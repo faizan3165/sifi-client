@@ -3,5 +3,8 @@
     border-bottom-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
     max-height: 16vh;
-    width: 197px;
+    width: 220px;
+}
+.my_logo{
+    width: 250px;
 }
