@@ -3,6 +3,8 @@ import React, { Fragment } from 'react';
 import { Home, Navbar, Services } from './components';
 
 import './App.css';
+import About from './components/About/About';
+import Reviews from './components/Testimonials/Reviews';
 
 const App = () => {
 	return (
@@ -10,6 +12,8 @@ const App = () => {
 			<Navbar /> 	
 			<Home />
 			<Services />
+			<About/>
+			<Reviews/>
 		</Fragment>
 	);
 };

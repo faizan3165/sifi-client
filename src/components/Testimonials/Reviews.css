@@ -1,0 +1,62 @@
+.Reviews_container{
+    width: 100%;
+    height: 70vh;
+    background-image: url('../../assets/images/Reviews-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: aqua; */
+
+}
+.Reviews_container_left{
+    width: 50%;
+    height: 70vh;
+    /* background-color: blue; */
+
+
+}
+.Reviews_container_right{
+    width: 50%;
+    height: 70vh;
+    /* background-color: chocolate; */
+
+}
+.Reviews-container-heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #0B75A9;
+
+}
+.Reviews-container-para{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+
+
+}
+.Testimonial_card{
+    height: 465px;
+    width: 641px;
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    }
+    .testimonial_card-para{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+
+        color: #4A4A4A;
+    }

@@ -1,0 +1,42 @@
+.About_container{
+    width: 100%;
+    height: 70vh;
+    background-image: url('../../assets/images/about-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-color: turquoise; */
+}
+.About_container_left{
+    width: 50%;
+    height: 70vh;
+    /* background-color: blue; */
+
+}
+.About_container_right{
+        width: 50%;
+        height: 70vh;
+        /* background-color: chocolate; */
+
+}
+.right-container-heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    color: #0B75A9;
+}
+.right-container-para{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #4A4A4A;
+
+}
