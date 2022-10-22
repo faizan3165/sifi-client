@@ -18,10 +18,10 @@ function Reviews() {
             <div className='container Testimonial_card'>
                 <img src={ChatIcon}/>
                 <p className='testimonial_card-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas at turpis diam euismod. 
-Pellentesque diam adipiscing amet aenean scelerisque. Nec gravida dolor lectus eget non arcu odio eget. At sit feugiat sed scelerisque habitant.</p>
+                  Pellentesque diam adipiscing amet aenean scelerisque. Nec gravida dolor lectus eget non arcu odio eget. At sit feugiat sed scelerisque habitant.</p>
             <div className='container d-flex justify-content-end'>
                 
-                <img src={ChatIcon2} width='75px' height='70px'/>
+                <img src={ChatIcon2} width='60px' height='60px'/>
 
             </div>
             <div className='container d-flex'>

@@ -4,7 +4,7 @@ import './About.css';
 function About() {
   return (
     <Fragment>
-        <div className="container-fluid d-flex mb-3 About_container">
+        <div className="container-fluid d-flex mb-3 mt-5 About_container">
         <div className="container About_container_left ">
             <img src={AboutUs}/>
         </div>
