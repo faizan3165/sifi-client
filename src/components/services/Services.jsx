@@ -22,13 +22,12 @@ const Services = () => {
           <Row>
 
             {dummyData.map (({id, img, title, text}) => (
-              <Col xs={{span: 6}} md={{span: 1, offset: 2}}>
+              <Col xs={{span: 6}} md={{span: 1, offset: 2}} key={id}>
                 <Card
-                  key={id}
                   className="rounded-4 shadow-lg services_card p-2"
                   style={{width: '18rem'}}
                 >
-                  <Card.Img variant="top" src={img} class="my_card_logo" />
+                  <Card.Img variant="top" src={img} className="my_card_logo" />
 
                   <Card.Body>
                     <Card.Title>{title}</Card.Title>
