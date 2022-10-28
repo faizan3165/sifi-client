@@ -11,10 +11,10 @@ const Intro = () => {
 		setBtnColor(!btnColor);
 	};
 
-	const StyleBtn = {
+	// const StyleBtn = {
      
-	backgroundColor : '#1574A3'
-	}
+	// backgroundColor : '#1574A3'
+	// }
 
 	return (
 		<div className="col-lg-6 my_col">

@@ -6,7 +6,7 @@ function About () {
     <Fragment>
       <div className="container-fluid d-flex mb-3 mt-5 About_container">
         <div className="container d-flex justify-content-center About_container_left ">
-          <img src={AboutUs} />
+          <img src={AboutUs} alt='about us pic' />
         </div>
         <div className="container About_container_right ">
           <h1 className="right-container-heading">ABOUT US!</h1>
